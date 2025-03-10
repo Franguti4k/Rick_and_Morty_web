@@ -30,7 +30,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "franciscoja-rick-and-mo-99"
-          entrypoint: "routes/index.tsx"
+          entrypoint: "main.ts"
           root: "."
           
           
