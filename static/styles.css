@@ -1,0 +1,121 @@
+body {
+  background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/10/rick-morty-critica.jpg');
+  background-color: rgba(0, 0, 0, 200);
+  background-size: cover; /* Esto hace que la imagen cubra toda la pantalla */
+  background-position: center center; /* Centra la imagen */
+  background-attachment: fixed; /* Esto hace que la imagen quede fija cuando haces scroll */
+}
+
+.charactersContainer{
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  h1{
+    background-color: rgb(29, 206, 109);
+    align-items: center;
+  }
+  h3{background-color: rgb(29, 206, 109);
+    align-items: center;}
+  img{
+    border-radius: 50px;
+     cursor: pointer;
+  }
+}
+
+.characters{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.characterContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character{
+  display: flex;
+  flex-direction: column;
+  h1{
+    background-color: rgb(29, 206, 109);
+  }
+}
+
+.tarjeta{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  img{
+    border-radius: 50px;
+  }
+}
+
+.inicioIMG{
+  display: flex;
+  flex-direction: row-reverse;
+  img{
+    border-radius: 50px;
+    cursor: pointer
+  }
+}
+
+.characterInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3{
+    background-color: rgb(29, 206, 109);
+    align-items: center;
+  }
+  .lista_1{
+    background-color: rgb(29, 206, 109);
+  }
+}
+
+.episodes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2{
+    background-color: rgb(29, 206, 109);
+  }
+  ul{
+    margin-right: 800px;
+    background-color: rgb(29, 206, 109);
+  }
+}
+
+.episodeInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    background-color: rgb(29, 206, 109);
+  }
+  ul{
+    background-color: rgb(29, 206, 109);
+  }
+}
+
+.Episode-Characters{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2{
+    background-color: rgb(29, 206, 109);
+  }
+}
+
+.botones{
+  display: "flex";
+  flex-direction: row;
+  align-items: center;
+  a{
+    background-color: rgb(29, 206, 109);
+     padding: "10px"; 
+     border: "1px solid black"
+  }
+}
