@@ -1,14 +1,14 @@
 
 import { Handlers, FreshContext, PageProps } from '$fresh/server.ts';
 import Axios from "axios";
-import EpisodeInfo from "../../components/episodeInfo.tsx";
+import EpisodeInfo from "../../components/EpisodeInfo.tsx";
 
 
 type episodeApi = {
     id:string,
     name: string,
     air_date: string,
-    episode: string
+    episode: string   
     characters: string[]
 }
 

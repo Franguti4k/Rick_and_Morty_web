@@ -11,11 +11,6 @@ type Props = {
 const CharacterContainer: FunctionalComponent<Props> = (prop) => {
     const character = prop.character;
 
-    // Función para redirigir cuando se hace clic en la imagen
-    const handleClick = () => {
-        window.location.href = `/character/${character.id}`;
-    };
-
     return (
         <div class="characterContainer">
             <a href= {`/character/${character.id}`}><img  src={character.image}/></a>
